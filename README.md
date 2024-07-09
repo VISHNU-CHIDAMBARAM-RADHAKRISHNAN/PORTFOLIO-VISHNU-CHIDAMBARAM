@@ -1,6 +1,15 @@
 # PORTFOLIO-VISHNU-CHIDAMBARAM
 portfolio about vishnu-chidambaram Radhakrishnan
 
+# TO RUN THE CODE , FOLLOW THE STEPS
+ 1)Download the zipcode
+ 2)open in vscode and in index.html page run the project using live server or normal method
+ 3)see the output screen(output in the browser was successfull)
+
+# sample video
+
+https://www.kapwing.com/videos/668d466f7b75122501ec1a07
+
 ## Technologies
 Project is created with:
 
