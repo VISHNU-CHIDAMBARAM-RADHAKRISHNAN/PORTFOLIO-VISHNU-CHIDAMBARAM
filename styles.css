@@ -1,0 +1,173 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+a {
+  color: #1410f1;
+  text-decoration: none;
+}
+.navli {
+  font-size: 1.3rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+.project {
+  margin-bottom: 1rem;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1rem;
+}
+.project1 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  padding: 1.5rem;
+}
+.video-container {
+  display: none;
+  width: 90vw;
+  height: 100vh;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.toggle-button {
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the button is above the video */
+}
+.toggle-button1 {
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 1000; /* Ensure the button is above the video */
+}
+.video-container1 {
+  display: none;
+  width: 90vw;
+  height: 100vh;
+}
+.video-container1 iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.button3 {
+  display: inline-block;
+  padding: 10px 12px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.toggle-button1:hover {
+  background-color: #0056b3;
+}
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.hidden {
+  display: none;
+}
+embed {
+  margin: 10px 0px;
+}
+/* scroll to top */
+
+.content {
+  height: 2000px;
+  padding: 20px;
+}
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #555;
+}
+
+/* Show back to top button when user scrolls 300px */
+@media (min-width: 768px) {
+  .back-to-top {
+    display: none;
+  }
+  .back-to-top.show {
+    display: block;
+  }
+}
