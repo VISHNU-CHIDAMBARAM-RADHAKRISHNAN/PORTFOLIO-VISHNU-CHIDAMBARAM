@@ -7,6 +7,9 @@ portfolio about vishnu-chidambaram Radhakrishnan
  2)open in vscode and in index.html page run the project using live server or normal method
  3)see the output screen(output in the browser was successfull)
 
+# sample link
+
+https://www-vishnu-chidambaram-portfolio.netlify.app/
 
 ## Technologies
 Project is created with:
