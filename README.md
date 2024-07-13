@@ -1,20 +1,12 @@
 # PORTFOLIO-VISHNU-CHIDAMBARAM
 portfolio about vishnu-chidambaram Radhakrishnan
 
-# website link
-
-https://wwwvishnuchidambaram-portfolio.netlify.app/
 
 # TO RUN THE CODE , FOLLOW THE STEPS
  1)Download the zipcode
  2)open in vscode and in index.html page run the project using live server or normal method
  3)see the output screen(output in the browser was successfull)
 
-# sample video
-
-https://www.kapwing.com/videos/668d466f7b75122501ec1a07
-
-https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/PORTFOLIO-VISHNU-CHIDAMBARAM/assets/72678702/0d76f84c-b380-453a-988c-6fc92ab89ad1
 
 ## Technologies
 Project is created with:
