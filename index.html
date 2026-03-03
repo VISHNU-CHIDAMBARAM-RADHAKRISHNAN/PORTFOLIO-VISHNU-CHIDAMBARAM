@@ -4,164 +4,184 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vishnu Chidambaram Portfolio</title>
+    <title>Vishnu Chidambaram | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>VISHNU CHIDAMBARAM R</h1>
-      <nav>
-        <ul>
-          <li><a class="navli" href="#about">About</a></li>
-          <li><a class="navli" href="#projects">Projects</a></li>
-          <li><a class="navli" href="#Resume">Resume</a></li>
-          <li><a class="navli" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="about">
-      <h2>About Me</h2>
-      <p class="project">
-        I proud to say about me as software developer position at a
-        forward-thinking tech company, leveraging my skills in HTML, CSS,
-        JavaScript, Python, Next.js, Express.js, and MySQL. With proficiency in
-        front-end technologies (HTML, CSS, JavaScript) and back-end development
-        (Python, Express.js, MySQL), I am eager to contribute to designing and
-        deploying responsive web applications. I bring hands-on experience with
-        Next.js for building efficient, server-rendered applications that
-        enhance user experiences.<br /><br />
-        My background includes database management expertise using MySQL,
-        ensuring data integrity and efficient querying for scalable
-        applications. Committed to continuous growth, I actively pursue
-        knowledge in DevOps practices and cloud computing to stay abreast of
-        industry trends. I am motivated to collaborate in a dynamic team
-        environment, where I can apply my technical skills and creativity to
-        develop innovative software solutions that drive business success and
-        exceed client expectations."
-      </p>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>E-COMMERCE WEBSITE</h3>
-        <p>
-          E-commerce website offers a user-friendly interface featuring
-          categorized product listings, high-quality images, detailed
-          descriptions, and customer reviews. Advanced search and filtering
-          enhance shopping ease. The seamless registration and login process,
-          efficient shopping cart, and secure multi-payment checkout ensure a
-          smooth and convenient shopping experience for users.<br /><br /><b
-            >Technologies:</b
-          >
-          HTML, CSS, JavaScript, MySQL , Nextjs , Expressjs
-        </p>
-        <p>
-          <b>source code :</b
-          ><u
-            ><u
-              ><a
-                href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/RVC-ECOMMERCE-WEBSTE"
-                target="_blank"
-                ><b
-                  >https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/RVC-ECOMMERCE-WEBSTE</b
-                ></a
-              ></u
-            ></u
-          >
-        </p>
-      </div>
-      <div class="project">
-        <h3>Website for Food Ordering and Delivery</h3>
-        <p>
-          Foodies is an innovative and integrated web application that brings
-          together all aspects of the food industry in one platform. Whether
-          you're looking to order food from your favorite restaurants or
-          talented home chefs, hire a personal chef for your next event, or
-          learn how to cook like a pro <br /><br /><b>Technologies:</b> HTML,
-          CSS, Java Script, Bootstrap, Php, MySQL.
-        </p>
-        <p>
-          <b>source code :</b
-          ><u
-            ><u
-              ><a
-                href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/A-Software-System-for-Integrated-Food-Ordering-and-Delivery"
-                target="_blank"
-                ><b
-                  >https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/A-Software-System-for-Integrated-Food-Ordering-and-Delivery</b
-                ></a
-              ></u
-            ></u
-          >
-        </p>
-      </div>
-      <div class="project">
-        <b>More project</b>
-        <br />
-        <br />
-        <p>
-          <b>source code :</b
-          ><u
-            ><u
-              ><a
-                href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN"
-                target="_blank"
-                ><b>https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN</b></a
-              ></u
-            ></u
-          >
-        </p>
-        <a
-          href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN"
-          target="_blank"
-          class="button3"
-          >More project</a
-        >
-      </div>
-    </section>
-    <section id="Resume">
-      <div><h2>Resume</h2></div>
-      <div class="project1">
-        <button
-          class="button"
-          onclick="document.getElementById('resume').classList.toggle('hidden')"
-        >
-          Show Resume
+      <div class="header-content">
+        <h1>VISHNU CHIDAMBARAM R</h1>
+        <nav>
+          <ul>
+            <li><a class="navli" href="#about">About</a></li>
+            <li><a class="navli" href="#projects">Projects</a></li>
+            <li><a class="navli" href="#Resume">Resume</a></li>
+          </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+          <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path></svg>
         </button>
-        <div id="resume" class="hidden">
+      </div>
+    </header>
+    <main class="container">
+      <section id="about" class="section">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <p class="about-text">
+          I am a passionate <strong>Full-Stack Software Developer</strong> dedicated to building scalable and efficient web applications. With expertise in <strong>React, Next.js, Express.js, and MySQL</strong>, I focus on delivering high-quality code and exceptional user experiences.<br /><br />
+          My background includes robust database management and a commitment to modern development practices, including <strong>automated testing and security hardening</strong>. I am constantly expanding my knowledge in DevOps and cloud computing to build state-of-the-art solutions that exceed client expectations.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <div class="underline"></div>
+        </div>
+        
+        <div class="projects-grid">
+          <!-- Nagarathar Matrimony - NEW PROJECT -->
+          <div class="project-card highlight">
+            <div class="project-info">
+              <h3>NAGARATHAR MATRIMONY</h3>
+              <div class="status-badge">100% Quality & Reliability</div>
+              <p>
+                A high-performance, full-stack matrimony application tailored for the Nagarathar community. Built with a focus on security, scalability, and developer experience.
+              </p>
+              <ul class="features">
+                <li>32+ Automated Tests (Jest & Supertest)</li>
+                <li>Bcrypt Password Hashing & MFA Ready</li>
+                <li>Modern Next.js 15 & Express 5 Stack</li>
+              </ul>
+              <div class="tech-stack">
+                <span>Next.js 15</span>
+                <span>Express 5</span>
+                <span>MySQL / TiDB</span>
+                <span>Jest</span>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://nagaratharmatrimony.vercel.app/" target="_blank" class="button primary">
+                  Live Link
+                </a>
+                <a href="https://github.com/VishnuChidambaram/nagaratharmatrimony" target="_blank" class="github-link">
+                  View Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- RVC E-COMMERCE -->
+          <div class="project-card">
+            <div class="project-info">
+              <h3>RVC E-COMMERCE WEBSITE</h3>
+              <p>
+                A comprehensive e-commerce platform featuring categorized product listings, secure checkout, and real-time inventory management.
+              </p>
+              <div class="tech-stack">
+                <span>Next.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/RVC-ECOMMERCE-WEBSTE" target="_blank" class="github-link">
+                  View Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Food Ordering System -->
+          <div class="project-card">
+            <div class="project-info">
+              <h3>INTEGRATED FOOD ORDERING SYSTEM</h3>
+              <p>
+                An innovative platform connecting restaurants, home chefs, and customers with integrated delivery management.
+              </p>
+              <div class="tech-stack">
+                <span>PHP</span>
+                <span>Bootstrap</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN/A-Software-System-for-Integrated-Food-Ordering-and-Delivery" target="_blank" class="github-link">
+                  View Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="more-projects">
+          <a href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN" target="_blank" class="button secondary">
+            Explore More on GitHub
+          </a>
+        </div>
+      </section>
+
+      <section id="Resume" class="section">
+        <div class="section-header">
+          <h2>Resume</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="resume-actions">
+          <button class="button primary" onclick="document.getElementById('resume-viewer').classList.toggle('hidden')">
+            View Resume Online
+          </button>
+          <button class="button secondary" id="downloadBtn">Download PDF</button>
+        </div>
+        <div id="resume-viewer" class="hidden resume-container">
           <embed
-            src="/Vishnu_chidambaram_Radhakrishnan_Resume.pdf"
+            src="Vishnu_chidambaram_Radhakrishnan_Resume.pdf"
             type="application/pdf"
             width="100%"
-            height="1150px"
+            height="800px"
           />
         </div>
-        &nbsp;&nbsp;&nbsp;
-        <button class="button" id="downloadBtn">Download Resume</button>
-        <script src="script.js"></script>
-      </div>
-    </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        Email:
-        <a
-          href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZXhxqkhNvDkxJRvFVstNGbTDrvkNQJZznBgLCPsblXkQdXRRCfjzqWxxZmBGBkqCHxLrg"
-          target="_blank"
-          >vishnuchidambarampmv@gmail.com</a
-        >
-      </p>
-      <p>Phone Number: <a>9444603820</a></p>
-      <p>
-        Linkedin:
-        <a
-          href="https://www.linkedin.com/in/vishnu-chidambaram-r"
-          target="_blank"
-          >https://www.linkedin.com/in/vishnu-chidambaram-r</a
-        >
-      </p>
-    </section>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="label">Email</span>
+            <a href="mailto:vishnuchidambarampmv@gmail.com">vishnuchidambarampmv@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="label">Phone</span>
+            <a href="tel:9444603820">9444603820</a>
+          </div>
+          <div class="contact-item">
+            <span class="label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/vishnu-chidambaram-r" target="_blank">linkedin.com/in/vishnu-chidambaram-r</a>
+          </div>
+          <div class="contact-item">
+            <span class="label">GitHub Profiles</span>
+            <ul class="contact-list">
+              <li><a href="https://github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN" target="_blank">github.com/VISHNU-CHIDAMBARAM-RADHAKRISHNAN</a></li>
+              <li><a href="https://github.com/VishnuChidambaram" target="_blank">github.com/VishnuChidambaram</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Vishnu Chidambaram R. All rights reserved.</p>
+    </footer>
+
     <a href="#" class="back-to-top">↑</a>
+    <script src="script.js"></script>
   </body>
 </html>
-
