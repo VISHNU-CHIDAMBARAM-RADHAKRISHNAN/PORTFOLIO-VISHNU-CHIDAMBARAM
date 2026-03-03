@@ -1,5 +1,5 @@
 # PORTFOLIO-VISHNU-CHIDAMBARAM
-portfolio about vishnu-chidambaram Radhakrishnan
+portfolio about Vishnu-Chidambaram Radhakrishnan
 
 
 # TO RUN THE CODE , FOLLOW THE STEPS
